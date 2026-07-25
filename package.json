@@ -1,0 +1,12 @@
+{
+  "name": "jasprarbiter-keeper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calls checkprice on jasprarbiter on a schedule via GitHub Actions.",
+  "main": "checkprice.js",
+  "dependencies": {
+    "eosjs": "^22.1.0",
+    "node-fetch": "^2.7.0",
+    "text-encoding": "^0.7.0"
+  }
+}
