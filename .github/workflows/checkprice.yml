@@ -3,7 +3,7 @@ name: checkprice keeper
 on:
   schedule:
     # Runs every 5 minutes, matching the contract's own 5-minute cooldown.
-    - cron: '*/6 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}   # lets you also trigger it manually from GitHub's UI
 
 jobs:
